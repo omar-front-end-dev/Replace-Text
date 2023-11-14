@@ -1,0 +1,10 @@
+.heading::before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background-color: #198754;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+}
